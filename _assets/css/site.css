@@ -1,0 +1,131 @@
+* {
+  outline: none;
+  color: #fff;
+}
+
+a,
+p {
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.btn {
+  color: #fff;
+  border: solid 1px #fff;
+  border-radius: 0px;
+  padding: 8px 25px;
+  background: transparent;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btn-white {
+  color: #000;
+  background: #fff;
+}
+.btn-white:hover {
+  color: #000;
+}
+
+/** menu **/
+#menu {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  padding: 0px;
+  z-index: 2;
+}
+
+.navbar .nav-link {
+  margin-left: 50px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #fff;
+}
+
+.navbar-dark .navbar-toggler,
+.navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+}
+
+/** top-section **/
+#top-section {
+  background-image: url("../images/home/food-bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px 0px 150px 0px;
+}
+
+/** main **/
+body > main {
+  background-image: url("../images/main-bg.png");
+  padding: 80px 0px 0px;
+}
+
+/** discover **/
+#discover .menu-option {
+  border: solid 1px #fff;
+  border-radius: 10px;
+  padding: 150px 0px 30px;
+}
+
+/** week's special **/
+#week-special .section-post {
+  border: solid 1px #fff;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 15px;
+}
+
+/** review **/
+#reviews {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 100px 0px;
+}
+
+/** about us **/
+#about-us .section-post {
+  border: solid 1px #fff;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 15px;
+}
+
+/** gallery  **/
+#gallery {
+  padding: 80px 0px 20px;
+  background-image: url("../images/home/main-bg-2-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/** footer **/
+footer {
+  background-color: #000;
+  padding: 0px 0px 30px;
+}
+
+footer #footer-bg {
+  background-image: url("../images/home/food-bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+}
