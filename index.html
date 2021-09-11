@@ -28,7 +28,7 @@
 
   <body>
     <!-- menu -->
-    <nav id="menu" class="navbar navbar-expand-lg">
+    <nav id="menu" class="navbar navbar-expand-md">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><img src="_assets/images/logo.svg" alt="" class="img-fluid"
@@ -76,7 +76,7 @@
 
     <!-- top-section -->
     <section id="top-section">
-      <div class="container-sm">
+      <div class="container-sm d-none d-md-block">
         <div class="row">
           <div class="col-12">
             <h1 class="text-center">WELCOME TO OLIVER’S PUB & KITCHEN</h1>
@@ -117,6 +117,25 @@
                 ><img src="_assets/images/icon-fb.png" alt="" /> &nbsp; Follow
                 us</a
               >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="welcome-section" class="d-block d-md-none py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2
+              class="manrope text-black text-center text-uppercase fw-800 mb-4"
+            >
+              WELCOME TO OLIVER’S PUB & KITCHEN
+            </h2>
+            <p class="text-black text-center">
+              Tortor malesuada ante purus ac ornare. Eu fringilla vestibulum
+              varius felis augue gravida pretium. Viverra ullamcorper mi odio
+              aliquam auctor suspendisse. Cras in ipsum elit facilisis mi tempor
+              nibh.
             </p>
           </div>
         </div>
@@ -166,9 +185,9 @@
             </div>
           </div>
         </div>
-        <br />
-        <br />
-        <br />
+        <br class="d-none d-lg-block" />
+        <br class="d-none d-md-block" />
+        <br class="d-none d-md-block" />
         <br />
         <br />
         <br />
@@ -189,10 +208,10 @@
       <section id="our-story">
         <div class="container">
           <div class="row">
-            <div class="col-6">
-              <br />
-              <br />
-              <br />
+            <div class="col-12 col-md-6">
+              <br class="d-none d-md-block" />
+              <br class="d-none d-md-block" />
+              <br class="d-none d-md-block" />
               <h4 class="text-uppercase mt-5">visit us</h4>
               <h2 class="mb-4">Our Story</h2>
               <p class="mb-3 text-gray">
@@ -211,7 +230,7 @@
                 vulputate nisi. At congue lectus aliquam ultricies vulputate
                 lectus ut.
               </p>
-              <p class="mb-3 text-gray">
+              <p class="mb-5 mb-md-3 text-gray">
                 Orci arcu tristique cursus ac ornare. Sagittis dictum tortor
                 aliquam purus faucibus sollicitudin ut. Eu pellentesque
                 adipiscing pretium ut pulvinar mauris sapien elementum mauris.
@@ -221,15 +240,19 @@
                 leo maecenas amet.
               </p>
             </div>
-            <div class="col-6 text-end">
+            <div class="col-7 order-2 col-md-6 text-end">
               <img
                 src="_assets/images/home/our-story-img.png"
                 alt=""
-                class="img-fluid"
+                class="img-fluid d-none d-md-block"
+              />
+              <img
+                src="_assets/images/home/our-story-img-sm.png"
+                alt=""
+                class="img-fluid d-block d-md-none"
               />
             </div>
-
-            <div id="open-hours" class="bg-black pt-4 pb-2">
+            <div id="open-hours" class="bg-black pt-3 pt-md-4 pb-2 order-1">
               <p class="text-uppercase">visit us</p>
               <h2 class="mb-4">Open hours</h2>
               <p class="mb-4">
@@ -248,7 +271,9 @@
           </div>
         </div>
       </section>
+
       <br />
+
       <img
         src="_assets/images/home/food-bg2.png"
         alt=""
@@ -258,12 +283,17 @@
       <!-- best dishes -->
       <section id="best-dishes">
         <div class="container">
-          <div class="row mb-5">
-            <h4 class="text-center text-uppercase">
+          <div class="row mb-4 mb-md-5">
+            <h4 class="text-start text-md-center text-uppercase">
               Restaurant WEEK’S SPECIALS
             </h4>
-            <h2 class="text-center">Best Restaurant Dishes</h2>
-            <p class="text-center mt-4 text-sm text-gray mb-5">
+            <h2 class="text-start text-md-center mt-2 position-relative">
+              Best Restaurant Dishes
+              <div class="d-block d-md-none position-absolute end-0 top-0">
+                <a href="#" class="btn">Book Table</a>
+              </div>
+            </h2>
+            <p class="text-start text-md-center mt-4 text-sm text-gray mb-5">
               Aliquam amet turpis elementum integer at molestie morbi mauris.
               Orci pellentesque varius pretium eu. At morbi tortor penatibus
               eleifend sit magna aliquam. Enim, tellus feugiat turpis quis eu
@@ -274,11 +304,11 @@
             <div class="col-6">
               <div class="dishes-item mb-3">
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-8 col-md-4">
                     <p class="playfair">Coco spice</p>
                   </div>
-                  <div class="col-8">
-                    <p class="text-end playfair fw-light">$19</p>
+                  <div class="col-4 col-md-8">
+                    <p class="text-end playfair fw-400">$19</p>
                   </div>
                   <div class="col-12">
                     <p class="text-gray">Captain Morgan spiced rum, pineaple</p>
@@ -287,11 +317,11 @@
               </div>
               <div class="dishes-item mb-3">
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-8 col-md-4">
                     <p class="playfair">Coco spice</p>
                   </div>
-                  <div class="col-8">
-                    <p class="text-end playfair fw-light">$19</p>
+                  <div class="col-4 col-md-8">
+                    <p class="text-end playfair fw-400">$19</p>
                   </div>
                   <div class="col-12">
                     <p class="text-gray">Captain Morgan spiced rum, pineaple</p>
@@ -300,11 +330,11 @@
               </div>
               <div class="dishes-item mb-3">
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-8 col-md-4">
                     <p class="playfair">Coco spice</p>
                   </div>
-                  <div class="col-8">
-                    <p class="text-end playfair fw-light">$19</p>
+                  <div class="col-4 col-md-8">
+                    <p class="text-end playfair fw-400">$19</p>
                   </div>
                   <div class="col-12">
                     <p class="text-gray">Captain Morgan spiced rum, pineaple</p>
@@ -313,11 +343,11 @@
               </div>
               <div class="dishes-item mb-3">
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-8 col-md-4">
                     <p class="playfair">Coco spice</p>
                   </div>
-                  <div class="col-8">
-                    <p class="text-end playfair fw-light">$19</p>
+                  <div class="col-4 col-md-8">
+                    <p class="text-end playfair fw-400">$19</p>
                   </div>
                   <div class="col-12">
                     <p class="text-gray">Captain Morgan spiced rum, pineaple</p>
@@ -326,18 +356,18 @@
               </div>
               <div class="dishes-item mb-4">
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-8 col-md-4">
                     <p class="playfair">Coco spice</p>
                   </div>
-                  <div class="col-8">
-                    <p class="text-end playfair fw-light">$19</p>
+                  <div class="col-4 col-md-8">
+                    <p class="text-end playfair fw-400">$19</p>
                   </div>
                   <div class="col-12">
                     <p class="text-gray">Captain Morgan spiced rum, pineaple</p>
                   </div>
                 </div>
               </div>
-              <div class="text-center">
+              <div class="text-center d-none d-md-block">
                 <a href="#" class="btn">Book Table</a>
               </div>
             </div>
@@ -345,16 +375,21 @@
               <img
                 src="_assets/images/home/week-special-img.png"
                 alt=""
-                class="img-fluid"
+                class="img-fluid d-none d-md-block"
+              />
+              <img
+                src="_assets/images/home/week-special-img-sm.png"
+                alt=""
+                class="img-fluid d-block d-md-none"
               />
             </div>
           </div>
         </div>
       </section>
 
-      <br />
-      <br />
-      <br />
+      <br class="d-none d-md-block" />
+      <br class="d-none d-md-block" />
+      <br class="d-none d-md-block" />
       <!-- week's special -->
       <section id="week-special" class="mt-5 pb-5">
         <div class="container">
@@ -364,15 +399,69 @@
             </div>
           </div>
           <div class="row mb-5">
-            <div class="col-5">
+            <div class="col-9">
               <h2>Best Restaurant Dishes</h2>
             </div>
-            <div class="col-7 text-end">
+            <div class="col-3 text-end">
               <a href="#" class="btn">View More</a>
             </div>
           </div>
 
-          <div class="row">
+          <div class="jcarousel d-block d-md-none">
+            <ul class="clearfix">
+              <li>
+                <img
+                  src="_assets/images/home/dishes-img1.png"
+                  alt=""
+                  class="img-fluid d-block"
+                />
+                <div class="section-post">
+                  <p class="section-post-title playfair">Pan con alioli</p>
+                  <p class="text-gray">
+                    Huisgemaakte alioli met 2 soorten brood Huisgemaakte alioli
+                    met 2 soorten brood
+                  </p>
+                  <p class="dishes-price playfair">EUR 10</p>
+                </div>
+              </li>
+              <li>
+                <img
+                  src="_assets/images/home/dishes-img1.png"
+                  alt=""
+                  class="img-fluid d-block"
+                />
+                <div class="section-post">
+                  <p class="section-post-title playfair">Pan con alioli</p>
+                  <p class="text-gray">
+                    Huisgemaakte alioli met 2 soorten brood Huisgemaakte alioli
+                    met 2 soorten brood
+                  </p>
+                  <p class="dishes-price playfair">EUR 10</p>
+                </div>
+              </li>
+              <li>
+                <img
+                  src="_assets/images/home/dishes-img1.png"
+                  alt=""
+                  class="img-fluid d-block"
+                />
+                <div class="section-post">
+                  <p class="section-post-title playfair">Pan con alioli</p>
+                  <p class="text-gray">
+                    Huisgemaakte alioli met 2 soorten brood Huisgemaakte alioli
+                    met 2 soorten brood
+                  </p>
+                  <p class="dishes-price playfair">EUR 10</p>
+                </div>
+              </li>
+            </ul>
+            <div class="d-block text-center mt-3">
+              <a class="scroll-btn-left" href="javascript:void(0);"></a>
+              <a class="scroll-btn-right" href="javascript:void(0);"></a>
+            </div>
+          </div>
+
+          <div class="row d-none d-md-flex">
             <div class="col-4">
               <img
                 src="_assets/images/home/dishes-img1.png"
@@ -441,7 +530,7 @@
                 class="img-fluid d-block mb-4"
               />
               <p>In egestas sem praesent etiam.</p>
-              <p class="text-gray fw-light">
+              <p class="text-gray fw-400">
                 Tincidunt nulla viverra arcu nisl duis porttitor tristique
                 sodales. Bibendum mus adipiscing netus purus augue egestas.
                 Aliquet aliquam ut nisl, fringilla quam porta ut fermentum
@@ -458,7 +547,7 @@
                 Eu porttitor duis ultrices euismod. Cursus erat odio
                 pellentesque.
               </p>
-              <p class="text-gray fw-light">
+              <p class="text-gray fw-400">
                 Justo, venenatis amet egestas a, purus sem. Risus sed tincidunt
                 nec a. Arcu, blandit hendrerit varius sed. Tincidunt ornare
                 massa quis a feugiat eget nec quis tortor. Eget in feugiat ut
@@ -472,7 +561,7 @@
                 class="img-fluid d-block mb-4"
               />
               <p>Ut mauris donec penatibus in.</p>
-              <p class="text-gray fw-light">
+              <p class="text-gray fw-400">
                 Enim, nisi, nam tortor sed. Sem non tristique ullamcorper
                 egestas vestibulum lacus, id orci semper. Eu pulvinar vel ut
                 morbi eu amet ut lobortis. Viverra donec quam duis praesent enim
@@ -486,7 +575,7 @@
                 class="img-fluid d-block mb-4"
               />
               <p>Odio pharetra bibendum feugiat.</p>
-              <p class="text-gray fw-light">
+              <p class="text-gray fw-400">
                 Fringilla sed amet mauris, diam vulputate dui, venenatis vel,
                 tristique. Quisque proin leo nec sed suspendisse. Aliquet turpis
                 eget risus ac. Habitant adipiscing cras ipsum interdum sed
@@ -497,9 +586,10 @@
         </div>
       </section>
 
+      <br class="d-none d-md-block" />
+      <br class="d-none d-md-block" />
       <br />
-      <br />
-      <br />
+
       <!-- about us -->
       <section id="about-us" class="mt-5">
         <div class="container">
@@ -509,10 +599,10 @@
             </div>
           </div>
           <div class="row mb-5">
-            <div class="col-5">
+            <div class="col-9">
               <h2>Events & Whatson</h2>
             </div>
-            <div class="col-7 text-end">
+            <div class="col-3 text-end">
               <a href="#" class="btn">View More</a>
             </div>
           </div>
@@ -567,16 +657,23 @@
         </div>
       </section>
 
+      <br class="d-none d-md-block" />
+      <br class="d-none d-md-block" />
       <br />
-      <br />
-      <br />
+
       <!-- visit us -->
       <section id="visit-us" class="mt-5 pb-5">
         <div class="container">
+          <div class="row d-block d-md-none">
+            <div class="col-12">
+              <h4 class="text-uppercase mt-5">Visit us</h4>
+              <h2 class="mb-5">Traditions on your plate</h2>
+            </div>
+          </div>
           <div class="row">
             <div class="col-6">
-              <h4 class="text-uppercase mt-5">Visit us</h4>
-              <h2 class="mb-4">Traditions on your plate</h2>
+              <h4 class="text-uppercase mt-5 d-none d-md-block">Visit us</h4>
+              <h2 class="mb-4 d-none d-md-block">Traditions on your plate</h2>
               <p class="mb-3 text-gray">
                 A nunc sed vestibulum facilisi dignissim sed. Tellus, ipsum,
                 ultrices leo consequat. Aliquam etiam et aenean magna. Ultricies
@@ -624,6 +721,12 @@
           </div>
           <br />
           <br />
+          <div class="row d-block d-md-none">
+            <div class="col-12">
+              <h4 class="text-uppercase mt-2">Visit us</h4>
+              <h2 class="mb-5">About our dishes</h2>
+            </div>
+          </div>
           <div class="row mt-5">
             <div class="col-6">
               <img
@@ -633,8 +736,8 @@
               />
             </div>
             <div class="col-6">
-              <h4 class="text-uppercase mt-5">Visit us</h4>
-              <h2 class="mb-4">About our dishes</h2>
+              <h4 class="text-uppercase mt-5 d-none d-md-block">Visit us</h4>
+              <h2 class="mb-4 d-none d-md-block">About our dishes</h2>
               <p class="mb-3 text-gray">
                 A nunc sed vestibulum facilisi dignissim sed. Tellus, ipsum,
                 ultrices leo consequat. Aliquam etiam et aenean magna. Ultricies
@@ -685,81 +788,79 @@
             </div>
           </div>
           <div class="row mb-5">
-            <div class="col-5">
+            <div class="col-9">
               <h2>Photo Gallery</h2>
             </div>
-            <div class="col-7 text-end">
+            <div class="col-3 text-end">
               <a href="#" class="btn">View More</a>
             </div>
           </div>
 
           <div class="row">
-            <div class="col px-0 py-0">
+            <div class="col-6 col-sm-4 col-lg-20 px-0 py-0">
               <img
                 src="_assets/images/home/gallery-img1.png"
                 alt=""
                 class="img-fluid"
               />
             </div>
-            <div class="col px-0 py-0">
+            <div class="col-6 col-sm-4 col-lg-20 px-0 py-0">
               <img
                 src="_assets/images/home/gallery-img2.png"
                 alt=""
                 class="img-fluid"
               />
             </div>
-            <div class="col px-0 py-0">
+            <div class="col-6 col-sm-4 col-lg-20 px-0 py-0">
               <img
                 src="_assets/images/home/gallery-img3.png"
                 alt=""
                 class="img-fluid"
               />
             </div>
-            <div class="col px-0 py-0">
+            <div class="col-6 col-sm-4 col-lg-20 px-0 py-0">
               <img
                 src="_assets/images/home/gallery-img4.png"
                 alt=""
                 class="img-fluid"
               />
             </div>
-            <div class="col px-0 py-0">
+            <div class="col-6 col-sm-4 col-lg-20 px-0 py-0">
               <img
                 src="_assets/images/home/gallery-img5.png"
                 alt=""
                 class="img-fluid"
               />
             </div>
-          </div>
-          <div class="row">
-            <div class="col px-0 py-0">
+            <div class="col-6 col-sm-4 col-lg-20 px-0 py-0">
               <img
                 src="_assets/images/home/gallery-img6.png"
                 alt=""
                 class="img-fluid"
               />
             </div>
-            <div class="col px-0 py-0">
+            <div class="col-6 col-sm-4 col-lg-20 px-0 py-0">
               <img
                 src="_assets/images/home/gallery-img7.png"
                 alt=""
                 class="img-fluid"
               />
             </div>
-            <div class="col px-0 py-0">
+            <div class="col-6 col-sm-4 col-lg-20 px-0 py-0">
               <img
                 src="_assets/images/home/gallery-img8.png"
                 alt=""
                 class="img-fluid"
               />
             </div>
-            <div class="col px-0 py-0">
+            <div class="col-6 col-sm-4 col-lg-20 px-0 py-0">
               <img
                 src="_assets/images/home/gallery-img9.png"
                 alt=""
                 class="img-fluid"
               />
             </div>
-            <div class="col px-0 py-0">
+            <div class="col-6 col-sm-4 col-lg-20 px-0 py-0">
               <img
                 src="_assets/images/home/gallery-img10.png"
                 alt=""
@@ -797,10 +898,48 @@
 
       <div class="container">
         <div class="row pt-5 pb-3">
-          <div class="col">
-            <img src="_assets/images/logo.svg" class="img-fluid" alt="" />
+          <div class="col-4 col-lg-auto">
+            <img
+              src="_assets/images/logo.svg"
+              class="img-fluid d-block mb-5"
+              alt=""
+            />
+
+            <div class="d-block d-lg-none">
+              <p class="text-gray">+34 594 399 222</p>
+              <p class="text-gray">info@oliverspubandkitchen.com</p>
+              <p>
+                <a href="#"
+                  ><img
+                    src="_assets/images/icon-fb.png"
+                    alt=""
+                    class="img-fluid"
+                /></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"
+                  ><img
+                    src="_assets/images/icon-twitter.png"
+                    alt=""
+                    class="img-fluid"
+                /></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"
+                  ><img
+                    src="_assets/images/icon-instagram.png"
+                    alt=""
+                    class="img-fluid"
+                /></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"
+                  ><img
+                    src="_assets/images/icon-linkedIn.png"
+                    alt=""
+                    class="img-fluid"
+                /></a>
+              </p>
+            </div>
           </div>
-          <div class="col">
+          <div class="col-2 col-lg-auto ps-0 ps-lg-2">
             <div class="ps-5">
               <span class="d-block mb-3">Menu</span>
               <a href="#" class="d-block text-decoration-none text-gray mb-3"
@@ -820,7 +959,7 @@
               >
             </div>
           </div>
-          <div class="col">
+          <div class="col-3 col-lg-auto ps-4 ps-lg-0">
             <span class="d-block mb-3">Open hours</span>
             <p class="text-gray">
               Monday - Friday:<br />
@@ -835,8 +974,7 @@
               4:00 pm - 2:00 am
             </p>
           </div>
-          <div class="col">
-            <span class="d-block mb-3">Open hours</span>
+          <div class="d-none col-lg-block col-lg-auto">
             <p class="text-gray">+34 594 399 222</p>
             <p class="text-gray">info@oliverspubandkitchen.com</p>
             <p>
@@ -866,8 +1004,8 @@
               /></a>
             </p>
           </div>
-          <div class="col-4">
-            <a href="#" class="btn text-gray">Book a Table</a>
+          <div class="col-3 col-lg-4">
+            <a href="#" class="btn text-gray mb-3">Book a Table</a>
             &nbsp;&nbsp;
             <a href="#" class="btn text-gray">Order Delivery</a>
           </div>
@@ -889,6 +1027,28 @@
       rel="preload"
       as="script"
     ></script>
-    <script src="_assets/js/script.js" rel="preload" as="script"></script>
+    <script
+      src="_assets/js/jquery.jcarousel-core.min.js"
+      rel="preload"
+      as="script"
+    ></script>
+    <script>
+      $(function () {
+        if ($(window).width() <= 768) {
+          $(".jcarousel").imgScroll({
+            btn01: ".scroll-btn-left",
+            btn02: ".scroll-btn-right",
+            step: 325,
+          });
+        }
+        if ($(window).width() <= 576) {
+          $(".jcarousel").imgScroll({
+            btn01: ".scroll-btn-left",
+            btn02: ".scroll-btn-right",
+            step: 310,
+          });
+        }
+      });
+    </script>
   </body>
 </html>

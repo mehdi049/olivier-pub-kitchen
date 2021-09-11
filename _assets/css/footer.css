@@ -9,3 +9,14 @@ footer #footer-bg {
   background-size: cover;
   padding: 120px 0px;
 }
+
+@media screen and (max-width: 767px) {
+  footer #footer-bg {
+    /*background-image: url("../images/home/food-bg3.png");*/
+    padding: 60px 0px;
+  }
+
+  footer .btn {
+    min-width: 125px;
+  }
+}
