@@ -1,0 +1,29 @@
+#menu {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  padding: 0px;
+  z-index: 2;
+}
+
+.navbar .nav-link {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.navbar .nav-item {
+  margin-left: 50px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #fff;
+}
+
+.navbar-dark .navbar-toggler,
+.navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+}

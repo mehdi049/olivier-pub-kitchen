@@ -1,0 +1,11 @@
+footer {
+  background-color: #000;
+  padding: 0px 0px 10px;
+}
+
+footer #footer-bg {
+  background-image: url("../images/home/food-bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0px;
+}
