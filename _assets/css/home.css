@@ -18,6 +18,13 @@ body > main {
   line-height: 18px;
 }
 
+@media screen and (max-width: 576px) {
+  #top-section {
+    background-image: url("../images/home/food-bg1-sm.png");
+    padding: 330px 0px 0px 0px;
+  }
+}
+
 /** welcome **/
 #welcome-section {
   background-image: url("../images/home/main-bg3.png");
@@ -52,6 +59,24 @@ body > main {
 
   #discover .menu-option {
     padding: 90px 0px 35px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #discover h2 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  #discover .menu-option {
+    padding: 20px;
+  }
+  #discover .menu-option img {
+    width: 54px;
+    margin-bottom: 15px;
+  }
+  #discover .menu-option .playfair {
+    font-size: 12px;
+    line-height: 32px;
   }
 }
 
@@ -113,6 +138,20 @@ body > main {
   }
 }
 
+@media screen and (max-width: 576px) {
+  #our-story #open-hours {
+    width: 96%;
+    max-width: inherit;
+  }
+  #our-story #open-hours .text-uppercase {
+    font-size: 14px;
+  }
+  #our-story #open-hours h2 {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+}
+
 /** week's special **/
 #best-dishes .playfair {
   font-size: 24px;
@@ -153,6 +192,18 @@ body > main {
   #week-special .dishes-price {
     font-size: 36px;
     line-height: 43.2px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #best-dishes p {
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+
+  #best-dishes .playfair {
+    font-size: 24px;
+    line-height: 28.8px;
   }
 }
 

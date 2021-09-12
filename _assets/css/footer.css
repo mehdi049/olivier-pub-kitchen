@@ -20,3 +20,15 @@ footer #footer-bg {
     min-width: 125px;
   }
 }
+
+@media screen and (max-width: 576px) {
+  footer #footer-bg .text-big {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+  }
+
+  footer .btn {
+    min-width: 125px;
+  }
+}
