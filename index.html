@@ -37,37 +37,75 @@
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbar-content">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="d-block d-md-none text-center">
+              <img
+                src="_assets/images/logo.svg"
+                alt=""
+                class="img-fluid my-4 logo-sm"
+              />
+            </li>
+            <li class="d-block d-md-none text-center">
+              <input type="text" class="input-search mb-3" />
+            </li>
+            <li class="nav-item text-center text-md-start mb-3 mb-md-0">
               <a class="nav-link active text-white" aria-current="page" href="#"
                 >Menu</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-center text-md-start mb-3 mb-md-0">
               <a class="nav-link text-white" href="#">Restaurant</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-center text-md-start mb-3 mb-md-0">
               <a class="nav-link text-white" href="#">Takeaway</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-center text-md-start mb-3 mb-md-0">
               <a class="nav-link text-white" href="#">Gallery</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-center text-md-start mb-3 mb-md-0">
               <a class="nav-link text-white" href="#">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-center text-md-start mb-3 mb-md-0">
               <a class="btn" href="#">Book a Table</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-center text-md-start mb-4 mb-md-0">
               <a class="btn" href="#">Order Delivery</a>
+            </li>
+            <li class="d-block d-md-none text-center mb-3">
+              <p class="text-gray">+34 594 399 222</p>
+            </li>
+            <li class="d-block d-md-none text-center mb-3">
+              <p class="text-gray text-decoration-underline">
+                info@oliverspubandkitchen.com
+              </p>
+            </li>
+            <li class="d-block d-md-none text-center mb-3">
+              <img
+                src="_assets/images/icon-fb.png"
+                class="img-fluid"
+                alt=""
+              />&nbsp;&nbsp;&nbsp;
+              <img
+                src="_assets/images/icon-twitter.png"
+                class="img-fluid"
+                alt=""
+              />&nbsp;&nbsp;&nbsp;
+              <img
+                src="_assets/images/icon-instagram.png"
+                class="img-fluid"
+                alt=""
+              />&nbsp;&nbsp;&nbsp;
+              <img
+                src="_assets/images/icon-linkedIn.png"
+                class="img-fluid"
+                alt=""
+              />
             </li>
           </ul>
         </div>
@@ -391,7 +429,7 @@
       <br class="d-none d-md-block" />
       <br class="d-none d-md-block" />
       <!-- week's special -->
-      <section id="week-special" class="mt-5 pb-5">
+      <section id="week-special" class="mt-5 pb-3 pb-lg-5">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -407,7 +445,7 @@
             </div>
           </div>
 
-          <div class="jcarousel d-block d-md-none">
+          <div class="jcarousel jcarousel-week-special d-block d-md-none">
             <ul class="clearfix">
               <li>
                 <img
@@ -456,8 +494,14 @@
               </li>
             </ul>
             <div class="d-block text-center mt-3">
-              <a class="scroll-btn-left" href="javascript:void(0);"></a>
-              <a class="scroll-btn-right" href="javascript:void(0);"></a>
+              <a
+                class="scroll-btn scroll-btn-left-week-special"
+                href="javascript:void(0);"
+              ></a>
+              <a
+                class="scroll-btn scroll-btn-left-week-special"
+                href="javascript:void(0);"
+              ></a>
             </div>
           </div>
 
@@ -522,7 +566,8 @@
               <h2 class="text-center">Reviews</h2>
             </div>
           </div>
-          <div class="row mt-5">
+
+          <div class="row mt-5 d-none d-md-flex">
             <div class="col-3">
               <img
                 src="_assets/images/home/avatar1.png"
@@ -583,6 +628,79 @@
               </p>
             </div>
           </div>
+
+          <div class="jcarousel jcarousel-reviews mt-5 d-block d-md-none">
+            <ul class="clearfix">
+              <li class="text-center">
+                <img
+                  src="_assets/images/home/avatar1.png"
+                  alt=""
+                  class="img-fluid mb-4"
+                />
+                <p class="text-center text-white">
+                  In egestas sem praesent etiam.
+                </p>
+                <p class="text-gray text-center fw-400">
+                  Tincidunt nulla viverra arcu nisl duis porttitor tristique
+                  sodales. Bibendum mus adipiscing netus purus augue egestas.
+                  Aliquet aliquam ut nisl, fringilla quam porta ut fermentum
+                  auctor. Iaculis non netus.
+                </p>
+              </li>
+              <li class="text-center">
+                <img
+                  src="_assets/images/home/avatar2.png"
+                  alt=""
+                  class="img-fluid mb-4"
+                />
+                <p class="text-center">In egestas sem praesent etiam.</p>
+                <p class="text-gray text-center fw-400">
+                  Tincidunt nulla viverra arcu nisl duis porttitor tristique
+                  sodales. Bibendum mus adipiscing netus purus augue egestas.
+                  Aliquet aliquam ut nisl, fringilla quam porta ut fermentum
+                  auctor. Iaculis non netus.
+                </p>
+              </li>
+              <li class="text-center">
+                <img
+                  src="_assets/images/home/avatar3.png"
+                  alt=""
+                  class="img-fluid mb-4"
+                />
+                <p class="text-center">In egestas sem praesent etiam.</p>
+                <p class="text-gray text-center fw-400">
+                  Tincidunt nulla viverra arcu nisl duis porttitor tristique
+                  sodales. Bibendum mus adipiscing netus purus augue egestas.
+                  Aliquet aliquam ut nisl, fringilla quam porta ut fermentum
+                  auctor. Iaculis non netus.
+                </p>
+              </li>
+              <li class="text-center">
+                <img
+                  src="_assets/images/home/avatar4.png"
+                  alt=""
+                  class="img-fluid mb-4"
+                />
+                <p class="text-center">In egestas sem praesent etiam.</p>
+                <p class="text-gray text-center fw-400">
+                  Tincidunt nulla viverra arcu nisl duis porttitor tristique
+                  sodales. Bibendum mus adipiscing netus purus augue egestas.
+                  Aliquet aliquam ut nisl, fringilla quam porta ut fermentum
+                  auctor. Iaculis non netus.
+                </p>
+              </li>
+            </ul>
+            <div class="d-block text-center mt-3">
+              <a
+                class="scroll-btn scroll-btn-left-reviews"
+                href="javascript:void(0);"
+              ></a>
+              <a
+                class="scroll-btn scroll-btn-right-reviews"
+                href="javascript:void(0);"
+              ></a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -607,7 +725,67 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="jcarousel jcarousel-about-us d-block d-md-none">
+            <ul class="clearfix">
+              <li>
+                <img
+                  src="_assets/images/home/event-img1.png"
+                  alt=""
+                  class="img-fluid d-block"
+                />
+                <div class="section-post">
+                  <p class="section-post-title playfair">Blog post tile</p>
+                  <p class="text-gray">
+                    Watching the news the other day, it occurred to me that
+                    people who have “words to live by”.
+                  </p>
+                  <p>30 min ago</p>
+                </div>
+              </li>
+              <li>
+                <img
+                  src="_assets/images/home/event-img2.png"
+                  alt=""
+                  class="img-fluid d-block"
+                />
+                <div class="section-post">
+                  <p class="section-post-title playfair">Blog post tile</p>
+                  <p class="text-gray">
+                    Watching the news the other day, it occurred to me that
+                    people who have “words to live by”.
+                  </p>
+                  <p>30 min ago</p>
+                </div>
+              </li>
+              <li>
+                <img
+                  src="_assets/images/home/event-img3.png"
+                  alt=""
+                  class="img-fluid d-block"
+                />
+                <div class="section-post">
+                  <p class="section-post-title playfair">Blog post tile</p>
+                  <p class="text-gray">
+                    Watching the news the other day, it occurred to me that
+                    people who have “words to live by”.
+                  </p>
+                  <p>30 min ago</p>
+                </div>
+              </li>
+            </ul>
+            <div class="d-block text-center mt-3">
+              <a
+                class="scroll-btn scroll-btn-left-about-us"
+                href="javascript:void(0);"
+              ></a>
+              <a
+                class="scroll-btn scroll-btn-left-about-us"
+                href="javascript:void(0);"
+              ></a>
+            </div>
+          </div>
+
+          <div class="row d-none d-md-flex">
             <div class="col-4">
               <img
                 src="_assets/images/home/event-img1.png"
@@ -1032,19 +1210,42 @@
       rel="preload"
       as="script"
     ></script>
+    <script src="_assets/js/script.js" rel="preload" as="script"></script>
     <script>
       $(function () {
         if ($(window).width() <= 768) {
-          $(".jcarousel").imgScroll({
-            btn01: ".scroll-btn-left",
-            btn02: ".scroll-btn-right",
+          $(".jcarousel-week-special").imgScroll({
+            btn01: ".scroll-btn-left-week-special",
+            btn02: ".scroll-btn-right-week-special",
+            step: 325,
+          });
+
+          $(".jcarousel-reviews").imgScroll({
+            btn01: ".scroll-btn-left-reviews",
+            btn02: ".scroll-btn-right-reviews",
+            step: 325,
+          });
+
+          $(".jcarousel-about-us").imgScroll({
+            btn01: ".scroll-btn-left-about-us",
+            btn02: ".scroll-btn-right-about-us",
             step: 325,
           });
         }
         if ($(window).width() <= 576) {
-          $(".jcarousel").imgScroll({
-            btn01: ".scroll-btn-left",
-            btn02: ".scroll-btn-right",
+          $(".jcarousel-week-special").imgScroll({
+            btn01: ".scroll-btn-left-week-special",
+            btn02: ".scroll-btn-right-week-special",
+            step: 310,
+          });
+          $(".jcarousel-reviews").imgScroll({
+            btn01: ".scroll-btn-left-reviews",
+            btn02: ".scroll-btn-right-reviews",
+            step: 310,
+          });
+          $(".jcarousel-about-us").imgScroll({
+            btn01: ".scroll-btn-left-about-us",
+            btn02: ".scroll-btn-right-about-us",
             step: 310,
           });
         }

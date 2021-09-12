@@ -21,7 +21,8 @@ html {
 
 a,
 p,
-span {
+span,
+input {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -123,31 +124,6 @@ h4 {
   background-color: #000;
 }
 
-/** jcarousel **/
-.jcarousel {
-  overflow: hidden;
-}
-
-.jcarousel ul {
-  padding: 0px;
-  margin: 0px;
-  width: 5000px;
-}
-
-.jcarousel ul li {
-  list-style: none;
-}
-
-.scroll-btn-left,
-.scroll-btn-right {
-  width: 10px;
-  height: 10px;
-  border: solid 1px #fff;
-  border-radius: 20px;
-  margin-right: 8px;
-  display: inline-block;
-}
-
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
@@ -184,5 +160,48 @@ h4 {
   }
   .btn {
     padding: 5px 15px;
+  }
+}
+
+/** jcarousel **/
+.jcarousel {
+  overflow: hidden;
+}
+
+.jcarousel ul {
+  padding: 0px;
+  margin: 0px;
+  width: 5000px;
+}
+
+.jcarousel ul li {
+  list-style: none;
+}
+
+.scroll-btn {
+  width: 10px;
+  height: 10px;
+  border: solid 1px #fff;
+  border-radius: 20px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+  .jcarousel {
+    width: 636px;
+    margin: auto;
+  }
+
+  .jcarousel li {
+    max-width: 310px;
+    margin-right: 15px;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .jcarousel {
+    width: 310px;
   }
 }
