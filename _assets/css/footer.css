@@ -10,14 +10,20 @@ footer #footer-bg {
   padding: 120px 0px;
 }
 
+footer .btn {
+  padding: 8px 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  footer .btn {
+    min-width: 135px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   footer #footer-bg {
     /*background-image: url("../images/home/food-bg3.png");*/
     padding: 60px 0px;
-  }
-
-  footer .btn {
-    min-width: 125px;
   }
 }
 
@@ -29,6 +35,6 @@ footer #footer-bg {
   }
 
   footer .btn {
-    min-width: 125px;
+    padding: 8px 15px;
   }
 }

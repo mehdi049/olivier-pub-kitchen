@@ -22,7 +22,8 @@ html {
 a,
 p,
 span,
-input {
+input,
+button {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -122,6 +123,33 @@ h4 {
 
 .bg-black {
   background-color: #000;
+}
+
+.accordion-item {
+  background-color: transparent;
+  border: none;
+}
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.6px;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #fff;
+  box-shadow: none;
+}
+.accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+.accordion-button::after {
+  background-image: url("../images/icon-plus.png");
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/icon-minus.png");
 }
 
 @media screen and (min-width: 1200px) {
