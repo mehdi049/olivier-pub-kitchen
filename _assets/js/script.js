@@ -10,4 +10,9 @@ $(function () {
     $(".navbar-toggler").attr("aria-expanded", "false");
     $("#navbar-content").hide(500);
   });
+
+  $(document).ready(function () {
+    $("#menu-section").load("menu.html");
+    $("footer").load("footer.html");
+  });
 });

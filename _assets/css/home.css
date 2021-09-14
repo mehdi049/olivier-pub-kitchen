@@ -1,51 +1,17 @@
-/** main **/
-body > main {
-  background-image: url("../images/main-bg.png");
-  padding: 70px 0px 0px;
-}
-
-/** top-section **/
-#top-section {
-  background-image: url("../images/home/food-bg1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 330px 0px 100px 0px;
-}
-
-#top-section .address-info {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 18px;
-}
-
-@media screen and (max-width: 576px) {
-  #top-section {
-    background-image: url("../images/home/food-bg1-sm.png");
-    padding: 330px 0px 0px 0px;
-  }
-}
-
-/** welcome **/
-#welcome-section {
-  background-image: url("../images/home/main-bg3.png");
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#welcome-section h2 {
-  font-size: 18px;
-  line-height: 18px;
-}
-
 /** discover **/
 #discover .menu-option {
   border: solid 1px rgba(255, 255, 255, 0.3);
   border-radius: 10px;
-  padding: 120px 0px 35px;
+  padding: 100px 0px 35px;
   max-width: 384px;
   max-height: 382px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px) {
+  #discover .menu-option {
+    padding: 70px 0px 35px;
+  }
 }
 
 @media screen and (max-width: 767px) {
