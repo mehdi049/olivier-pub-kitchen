@@ -85,3 +85,12 @@
     </div>
   </div>
 </nav>
+
+<script src="_assets/js/jquery-3.6.0.min.js" rel="preload" as="script"></script>
+<script>
+  $(".navbar-toggler").click(function () {
+    let expended = $(this).attr("aria-expanded");
+    $(this).attr("aria-expanded", "" + expended === "false");
+    $("#navbar-content").toggle(500);
+  });
+</script>
