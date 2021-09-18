@@ -1,84 +1,1608 @@
-<!-- menu -->
-<nav id="menu" class="navbar navbar-expand-md">
-  <div class="container">
-    <a class="navbar-brand" href="./"
-      ><img src="_assets/images/logo.svg" alt="" class="img-fluid"
-    /></a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbar-content">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="d-block d-md-none text-center">
-          <img
-            src="_assets/images/logo.svg"
-            alt=""
-            class="img-fluid my-4 logo-sm"
-          />
-        </li>
-        <li class="d-block d-md-none text-center">
-          <input type="text" class="input-search mb-3" />
-        </li>
-        <li class="nav-item text-center text-md-start mb-3 mb-md-0">
-          <a class="nav-link active text-white" aria-current="page" href="#"
-            >Menu</a
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      charset="utf-8"
+      http-equiv="X-UA-Compatible"
+      content="IE=edge,chrome=1"
+    />
+    <link rel="icon" href="_assets/images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Olivier pub & Kitchen" />
+    <link
+      rel="stylesheet"
+      href="_assets/css/bootstrap5.0.2.min.css"
+      as="style"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&family=Playfair+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="_assets/css/site.css" as="style" />
+    <link rel="stylesheet" href="_assets/css/nav.css" as="style" />
+    <link rel="stylesheet" href="_assets/css/footer.css" as="style" />
+    <link rel="stylesheet" href="_assets/css/menu.css" as="style" />
+    <title>Olivier pub & Kitchen</title>
+  </head>
+
+  <body>
+    <section id="nav-section"></section>
+
+    <!-- top-section -->
+    <section id="welcome-section" class="position-relative">
+      <div class="container-sm d-none d-md-block">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-start text-md-center text-uppercase">
+              WELCOME TO OLIVER’S PUB & KITCHEN
+            </h4>
+            <h1 class="text-center">
+              Et pulvinar sem nec adipiscing. Sem tempor massa mi sed urna.
+            </h1>
+            <p class="text-center mt-5 text-sm">
+              Tortor malesuada ante purus ac ornare. Eu fringilla vestibulum
+              varius felis augue gravida pretium. Viverra ullamcorper mi odio
+              aliquam auctor suspendisse. Cras in ipsum elit facilisis mi tempor
+              nibh.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="container d-none d-md-block">
+        <div class="row" id="menu-type-content">
+          <div class="col-3">
+            <div class="row py-3 px-3 pb-2 menu-type active">
+              <div class="d-none d-lg-block col-3">
+                <img
+                  src="_assets/images/menu/icon-lunch.png"
+                  alt=""
+                  class="img-fluid display"
+                />
+                <img
+                  src="_assets/images/menu/icon-lunch-hover.png"
+                  alt=""
+                  class="img-fluid display-on-hover"
+                />
+              </div>
+              <div class="col-12 col-lg-9">
+                <p class="text-uppercase fw-600">LUNCH</p>
+                <p class="fw-400">Thusday - Sunday</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="row py-3 px-3 pb-2 menu-type">
+              <div class="d-none d-lg-block col-3">
+                <img
+                  src="_assets/images/menu/icon-dinner.png"
+                  alt=""
+                  class="img-fluid display"
+                />
+                <img
+                  src="_assets/images/menu/icon-dinner-hover.png"
+                  alt=""
+                  class="img-fluid display-on-hover"
+                />
+              </div>
+              <div class="col-12 col-lg-9">
+                <p class="text-uppercase fw-600">DINNER</p>
+                <p class="fw-400">Thusday - Sunday</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="row py-3 px-3 pb-2 menu-type">
+              <div class="d-none d-lg-block col-3">
+                <img
+                  src="_assets/images/menu/icon-drinks.png"
+                  alt=""
+                  class="img-fluid display"
+                />
+                <img
+                  src="_assets/images/menu/icon-drinks-hover.png"
+                  alt=""
+                  class="img-fluid display-on-hover"
+                />
+              </div>
+              <div class="col-12 col-lg-9">
+                <p class="text-uppercase fw-600">DRINKS</p>
+                <p class="fw-400">Thusday - Sunday</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="row py-3 px-3 pb-2 menu-type">
+              <div class="d-none d-lg-block col-3">
+                <img
+                  src="_assets/images/menu/icon-c-menu.png"
+                  alt=""
+                  class="img-fluid display"
+                />
+                <img
+                  src="_assets/images/menu/icon-c-menu-hover.png"
+                  alt=""
+                  class="img-fluid display-on-hover"
+                />
+              </div>
+              <div class="col-12 col-lg-9">
+                <p class="text-uppercase fw-600">CHILDREN MENU</p>
+                <p class="fw-400">Thusday - Sunday</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- welcome-section -->
+    <section class="d-block d-md-none py-4 py-sm-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2
+              class="manrope text-black text-center text-uppercase fw-800 mb-4"
+            >
+              Et pulvinar sem nec adipiscing. Sem tempor massa mi sed urna.
+            </h2>
+            <p class="text-black text-center">
+              Tortor malesuada ante purus ac ornare. Eu fringilla vestibulum
+              varius felis augue gravida pretium. Viverra ullamcorper mi odio
+              aliquam auctor suspendisse. Cras in ipsum elit facilisis mi tempor
+              nibh.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+
+      <section class="d-block d-md-none">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-6">
+            <div class="row py-5 mb-4 menu-type active mx-1">
+              <div class="col-12 text-center">
+                <img
+                  src="_assets/images/menu/icon-lunch-lg.png"
+                  alt=""
+                  class="img-fluid display mb-3"
+                />
+                <img
+                  src="_assets/images/menu/icon-lunch-lg-hover.png"
+                  alt=""
+                  class="img-fluid display-on-hover mb-3"
+                />
+              </div>
+              <div class="col-12 text-center">
+                <p class="text-uppercase fw-800">LUNCH</p>
+                <p>Thusday - Sunday</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row py-5 mb-4 menu-type mx-1">
+              <div class="col-12 text-center">
+                <img
+                  src="_assets/images/menu/icon-dinner-lg.png"
+                  alt=""
+                  class="img-fluid display mb-3"
+                />
+                <img
+                  src="_assets/images/menu/icon-dinner-lg-hover.png"
+                  alt=""
+                  class="img-fluid display-on-hover mb-3"
+                />
+              </div>
+              <div class="col-12 text-center">
+                <p class="text-uppercase fw-800">DINNER</p>
+                <p>Thusday - Sunday</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row py-5 mb-4 menu-type mx-1">
+              <div class="col-12 text-center">
+                <img
+                  src="_assets/images/menu/icon-drinks-lg.png"
+                  alt=""
+                  class="img-fluid display mb-3"
+                />
+                <img
+                  src="_assets/images/menu/icon-drinks-lg-hover.png"
+                  alt=""
+                  class="img-fluid display-on-hover mb-3"
+                />
+              </div>
+              <div class="col-12 text-center">
+                <p class="text-uppercase fw-800">DRINKS</p>
+                <p>Thusday - Sunday</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row py-5 mb-4 menu-type mx-1">
+              <div class="col-12 text-center">
+                <img
+                  src="_assets/images/menu/icon-c-menu-lg.png"
+                  alt=""
+                  class="img-fluid display mb-3"
+                />
+                <img
+                  src="_assets/images/menu/icon-c-menu-lg-hover.png"
+                  alt=""
+                  class="img-fluid display-on-hover mb-3"
+                />
+              </div>
+              <div class="col-12 text-center">
+                <p class="text-uppercase fw-800">CHILDREN MENU</p>
+                <p>Thusday - Sunday</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+      <!-- menu list: LUNCH -->
+      <section>
+        <div class="container">
+          <div class="row mb-4 mb-sm-5">
+            <div class="col-12 text-center">
+              <img
+                src="_assets/images/menu/icon-lunch-lg.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <br />
+          <div class="row d-none d-lg-flex">
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img1.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img2.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img3.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img4.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="jcarousel jcarousel-menu-list-lunch  d-block d-lg-none"
           >
-        </li>
-        <li class="nav-item text-center text-md-start mb-3 mb-md-0">
-          <a class="nav-link text-white" href="./restaurant.html">Restaurant</a>
-        </li>
-        <li class="nav-item text-center text-md-start mb-3 mb-md-0">
-          <a class="nav-link text-white" href="./takeaway.html">Takeaway</a>
-        </li>
-        <li class="nav-item text-center text-md-start mb-3 mb-md-0">
-          <a class="nav-link text-white" href="#">Gallery</a>
-        </li>
-        <li class="nav-item text-center text-md-start mb-3 mb-md-0">
-          <a class="nav-link text-white" href="#">About</a>
-        </li>
-        <li class="nav-item text-center text-md-start mb-3 mb-md-0">
-          <a class="btn" href="#">Book a Table</a>
-        </li>
-        <li class="nav-item text-center text-md-start mb-4 mb-md-0">
-          <a class="btn" href="#">Order Delivery</a>
-        </li>
-        <li class="d-block d-md-none text-center mb-3">
-          <p class="text-gray">+34 594 399 222</p>
-        </li>
-        <li class="d-block d-md-none text-center mb-3">
-          <p class="text-gray text-decoration-underline">
-            info@oliverspubandkitchen.com
-          </p>
-        </li>
-        <li class="d-block d-md-none text-center mb-3">
-          <img
-            src="_assets/images/icon-fb.png"
-            class="img-fluid"
-            alt=""
-          />&nbsp;&nbsp;&nbsp;
-          <img
-            src="_assets/images/icon-twitter.png"
-            class="img-fluid"
-            alt=""
-          />&nbsp;&nbsp;&nbsp;
-          <img
-            src="_assets/images/icon-instagram.png"
-            class="img-fluid"
-            alt=""
-          />&nbsp;&nbsp;&nbsp;
-          <img
-            src="_assets/images/icon-linkedIn.png"
-            class="img-fluid"
-            alt=""
-          />
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+            <ul class="clearfix">
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img1.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img2.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img3.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img4.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="d-block text-center mt-3">
+              <a
+                class="scroll-btn scroll-btn-left-menu-list-lunch"
+                href="javascript:void(0);"
+              ></a>
+              <a
+                class="scroll-btn scroll-btn-right-menu-list-lunch"
+                href="javascript:void(0);"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <br />
+      <!-- menu list: DINNER -->
+      <section>
+        <div class="container">
+          <div class="row mb-4 mb-sm-5">
+            <div class="col-12 text-center">
+              <img
+                src="_assets/images/menu/icon-dinner-lg.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <br />
+          <div class="row d-none d-lg-flex">
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img1.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img2.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img3.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img4.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="jcarousel jcarousel-menu-list-dinner  d-block d-lg-none"
+          >
+            <ul class="clearfix">
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img1.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img2.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img3.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img4.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="d-block text-center mt-3">
+              <a
+                class="scroll-btn scroll-btn-left-menu-list-dinner"
+                href="javascript:void(0);"
+              ></a>
+              <a
+                class="scroll-btn scroll-btn-right-menu-list-dinner"
+                href="javascript:void(0);"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <br />
+      <!-- menu list: DRINKS -->
+      <section>
+        <div class="container">
+          <div class="row mb-4 mb-sm-5">
+            <div class="col-12 text-center">
+              <img
+                src="_assets/images/menu/icon-drinks-lg.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <br />
+          <div class="row d-none d-lg-flex">
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img1.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img2.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img3.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img4.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="jcarousel jcarousel-menu-list-drinks  d-block d-lg-none"
+          >
+            <ul class="clearfix">
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img1.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img2.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img3.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img4.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="d-block text-center mt-3">
+              <a
+                class="scroll-btn scroll-btn-left-menu-list-drinks"
+                href="javascript:void(0);"
+              ></a>
+              <a
+                class="scroll-btn scroll-btn-right-menu-list-drinks"
+                href="javascript:void(0);"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <br />
+      <!-- menu list: CHILDREN MENU -->
+      <section>
+        <div class="container">
+          <div class="row mb-4 mb-sm-5">
+            <div class="col-12 text-center">
+              <img
+                src="_assets/images/menu/icon-c-menu-lg.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <br />
+          <div class="row d-none d-lg-flex">
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img1.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img2.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img3.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="menu-item mb-4">
+                <div class="row">
+                  <div class="col-7 col-xl-8">
+                    <div class="row px-2 px-xl-4 py-2">
+                      <div class="col-12">
+                        <p class="text-white playfair">Pan con alioli</p>
+                        <p class="text-gray">
+                          At eleifend duis velit cras neque, aliquet. Dictum
+                          vitae orci faucibus ultrices etiam. Velit pellentesque
+                          ullamcorper eget augue amet, enim.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row px-2 px-xl-4">
+                      <div class="col-5 col-xl-6">
+                        <p class="playfair text-uppercase">EUR 10</p>
+                      </div>
+                      <div class="col-7 col-xl-6">
+                        <a href="#" class="btn">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5 col-xl-4">
+                    <img
+                      src="_assets/images/menu/menu-img4.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="jcarousel jcarousel-menu-list-c-menu  d-block d-lg-none"
+          >
+            <ul class="clearfix">
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img1.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img2.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img3.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="_assets/images/menu/menu-img4.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <div class="row px-3 py-3 pb-0">
+                        <div class="col-12">
+                          <p class="text-white playfair">Pan con alioli</p>
+                          <p class="text-gray">
+                            At eleifend duis velit cras neque, aliquet. Dictum
+                            vitae orci faucibus ultrices etiam. Velit
+                            pellentesque ullamcorper eget augue amet, enim.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row px-3 pb-3">
+                        <div class="col-12 col-sm-5 col-md-12">
+                          <p
+                            class="playfair text-uppercase mb-3 mb-sm-0 mb-md-3"
+                          >
+                            EUR 10
+                          </p>
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-12">
+                          <a href="#" class="btn">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="d-block text-center mt-3">
+              <a
+                class="scroll-btn scroll-btn-left-menu-list-c-menu"
+                href="javascript:void(0);"
+              ></a>
+              <a
+                class="scroll-btn scroll-btn-right-menu-list-c-menu"
+                href="javascript:void(0);"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+    </main>
+
+    <footer></footer>
+
+    <script
+      src="_assets/js/bootstrap5.0.2.min.js"
+      rel="preload"
+      as="script"
+    ></script>
+    <script
+      src="_assets/js/jquery-3.6.0.min.js"
+      rel="preload"
+      as="script"
+    ></script>
+    <script
+      src="_assets/js/jquery.jcarousel-core.min.js"
+      rel="preload"
+      as="script"
+    ></script>
+    <script src="_assets/js/script.js" rel="preload" as="script"></script>
+    <script>
+      $(function () {
+        if ($(window).width() > 768 && $(window).width() <= 992) {
+          $(".jcarousel-menu-list-lunch").imgScroll({
+            btn01: ".scroll-btn-left-menu-list-lunch",
+            btn02: ".scroll-btn-right-menu-list-lunch",
+            step: 240,
+          });
+          $(".jcarousel-menu-list-dinner").imgScroll({
+            btn01: ".scroll-btn-left-menu-list-dinner",
+            btn02: ".scroll-btn-right-menu-list-dinner",
+            step: 240,
+          });
+          $(".jcarousel-menu-list-drinks").imgScroll({
+            btn01: ".scroll-btn-left-menu-list-drinks",
+            btn02: ".scroll-btn-right-menu-list-drinks",
+            step: 240,
+          });          
+          $(".jcarousel-menu-list-c-menu").imgScroll({
+            btn01: ".scroll-btn-left-menu-list-c-menu",
+            btn02: ".scroll-btn-right-menu-list-c-menu",
+            step: 240,
+          });
+        }
+        if ($(window).width() > 576 && $(window).width() <= 768) {
+          $(".jcarousel-menu-list-lunch").imgScroll({
+            btn01: ".scroll-btn-left-menu-list-lunch",
+            btn02: ".scroll-btn-right-menu-list-lunch",
+            step: 325,
+          });          
+          $(".jcarousel-menu-list-dinner").imgScroll({
+            btn01: ".scroll-btn-left-menu-list-dinner",
+            btn02: ".scroll-btn-right-menu-list-dinner",
+            step: 325,
+          });
+          $(".jcarousel-menu-list-drinks").imgScroll({
+            btn01: ".scroll-btn-left-menu-list-drinks",
+            btn02: ".scroll-btn-right-menu-list-drinks",
+            step: 325,
+          });
+          $(".jcarousel-menu-list-c-menu").imgScroll({
+            btn01: ".scroll-btn-left-menu-list-c-menu",
+            btn02: ".scroll-btn-right-menu-list-c-menu",
+            step: 325,
+          });
+        }
+        if ($(window).width() <= 576) {
+          $(".jcarousel-menu-list-lunch").imgScroll({
+            btn01: ".scroll-btn-left-menu-list-lunch",
+            btn02: ".scroll-btn-right-menu-list-lunch",
+            step: 310,
+          });          
+          $(".jcarousel-menu-list-dinner").imgScroll({
+            btn01: ".scroll-btn-left-menu-list-dinner",
+            btn02: ".scroll-btn-right-menu-list-dinner",
+            step: 310,
+          });
+          $(".jcarousel-menu-list-drinks").imgScroll({
+            btn01: ".scroll-btn-left-menu-list-drinks",
+            btn02: ".scroll-btn-right-menu-list-drinks",
+            step: 310,
+          });
+          $(".jcarousel-menu-list-c-menu").imgScroll({
+            btn01: ".scroll-btn-left-menu-list-c-menu",
+            btn02: ".scroll-btn-right-menu-list-c-menu",
+            step: 310,
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
