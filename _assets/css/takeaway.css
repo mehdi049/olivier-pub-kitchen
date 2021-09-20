@@ -6,30 +6,6 @@
   padding: 20px;
 }
 
-/** week's special **/
-
-#week-special .section-post-title {
-  font-size: 18px;
-  line-height: 25.2px;
-}
-
-#week-special .section-post-title {
-  font-size: 18px;
-  line-height: 25.2px;
-}
-
-#week-special .dishes-price {
-  font-size: 16px;
-  line-height: 16px;
-}
-
-@media screen and (max-width: 767px) {
-  #week-special .dishes-price {
-    font-size: 36px;
-    line-height: 43.2px;
-  }
-}
-
 .section-overlay {
   position: absolute;
   left: 0;

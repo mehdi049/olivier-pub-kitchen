@@ -17,9 +17,11 @@
   margin-left: 50px;
 }
 
+.navbar .nav-link.active,
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
   color: #fff;
+  text-decoration: underline;
 }
 
 .navbar-dark .navbar-toggler,
