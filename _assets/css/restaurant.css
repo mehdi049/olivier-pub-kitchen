@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px) {
+  .dash-separator {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .dash-separator {
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dash-separator {
+    left: 200px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .dash-separator {
+    left: 190px;
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .dash-separator {
+    left: 200px;
+    width: 90px;
+  }
+}

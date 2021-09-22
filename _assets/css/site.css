@@ -206,6 +206,60 @@ h4 {
   display: inline-block;
 }
 
+.dash-separator {
+  background-image: url("../images/dash-separator.png");
+  background-repeat: repeat-x;
+  height: 20px;
+  width: 330px;
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+@media screen and (max-width: 1200px) {
+  .dash-separator {
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .dash-separator {
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dash-separator {
+    left: 200px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dash-separator {
+    left: 200px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .dash-separator {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .dash-separator {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .dash-separator {
+    width: 100px;
+  }
+}
+
 /** main **/
 body > main {
   background-image: url("../images/main-bg.png");

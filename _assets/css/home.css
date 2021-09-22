@@ -130,6 +130,15 @@
   }
 }
 
+@media screen and (max-width: 578px) {
+  #best-dishes .playfair {
+    font-size: 36px;
+  }
+  #best-dishes .playfair.fw-400 {
+    font-size: 24px;
+  }
+}
+
 /** review **/
 #reviews {
   background-color: rgba(0, 0, 0, 0.7);
